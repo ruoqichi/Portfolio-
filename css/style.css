@@ -1,0 +1,17 @@
+nav a {
+    color:black;
+}
+
+nav ul a {
+    color:black;
+}
+
+nav .brand-logo {
+    color:black;
+    margin-top:20px;
+
+}
+
+.no-shadows {
+    box-shadow: none!important;
+}
