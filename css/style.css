@@ -1,5 +1,7 @@
 nav a {
     color:black;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 nav ul a {
@@ -70,15 +72,16 @@ nav {
 }
 
 .text-project {
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 95%;
+  left: 42%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   width: 80%;
 
 }
