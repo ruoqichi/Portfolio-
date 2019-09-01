@@ -2,6 +2,7 @@
 @font-face {font-family: "Gotham"; src: url('../fonts/GothamLight.ttf') format('truetype');}
 @font-face {font-family: "GothamBook"; src: url('../fonts/GothamBook.ttf') format('truetype');}
 @font-face {font-family: "GothamMI"; src: url('../fonts/GothamMediumItalic.ttf') format('truetype');}
+@font-face {font-family: "GothamM"; src: url('../fonts/GothamMedium.ttf') format('truetype');}
 
 
 nav a {
@@ -107,4 +108,35 @@ nav {
 }
 .project-caption {
     margin-top:0px;
+}
+
+.content-iat235{
+  margin-top:100px;
+}
+
+.iat235-title {
+  font-family:'GothamM', sans-serif;
+  color: #5a5959;
+}
+
+.iat235-desc-title{
+  margin-top: 50px;
+  color: #85d7d7;
+  font-family: GothamM;
+}
+
+.content-margin {
+  /* margin-left: 16%; */
+}
+
+.iat235-paragraphs{
+  font-family: 'Gotham', sans-serif;
+  font-weight: 600;
+}
+
+.iat235-landing-mockup-img {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
