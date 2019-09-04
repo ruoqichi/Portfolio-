@@ -232,3 +232,16 @@ blockquote{
   margin-left:10px;
   font-size: 20px;
 }
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.me-title-desc {
+  font-weight: bold;
+  font-family:'Gotham', sans-serif;
+  /* color: grey; */
+  }
+
+.me-img {
+
+}
