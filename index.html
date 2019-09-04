@@ -19,6 +19,12 @@
   <!-- Compiled and minified Materialized JavaScript -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -31,7 +37,7 @@
               </a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">projects</a></li>
-                <li><a href="#">me</a></li>
+                <li><a href="me.html">me</a></li>
               </ul>
 
           </div>
@@ -39,13 +45,13 @@
       </div>
 
       <ul class="sidenav" id="mobile-nav">
-       <li><a href="#">projects</a></li>
-       <li><a href="#">me</a></li>
+       <li><a href="index.html">projects</a></li>
+       <li><a href="me.html">me</a></li>
      </ul>
 
      <!-- Projects -->
-    <div class="container mt-100">
-
+    <div class="container mt-100 data-aos="fade-up" data-aos-duration=800 data-aos-delay=100">
+          <p class="home-caption"> Aspiring UX designer with interest in film and media. Aims to create long-lasting experiences with her designs. </p>
       <div class="row">
 
       <div class="col s12 m6">
@@ -96,5 +102,10 @@
     <!-- End projects section -->
 
      <script src="js/script.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+                AOS.init();
+            </script>
+
 </body>
 </html>
