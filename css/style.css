@@ -38,7 +38,7 @@ nav {
 }
 
 .projects {
-    min-height:420px;
+    min-height:240px;
     position:relative;
     transition: transform .2s ease;
     overflow:hidden;
@@ -244,4 +244,41 @@ blockquote{
 
 .me-img {
 
+}
+
+.project-title-styled {
+
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a9dcd7;
+  transition: transform .2s ease;
+}
+
+.project-title-styled:hover {
+  -webkit-text-fill-color: #a9dcd7; /* Will override color (regardless of order) */
+}
+.project-title-second {
+ font-family: 'Poppins';
+-webkit-text-fill-color: #a9dcd7; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: none;
+-webkit-text-stroke-color: #a9dcd7;
+ color: #a9dcd7;
+ font-weight:500;
+}
+.main-title {
+  font-size: 1.8em;
+  margin-top:80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-title {
+    margin-top:10px;
+  }
+  .projects {
+    min-height:400px;
+  }
 }
