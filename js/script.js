@@ -2,10 +2,10 @@
 const sideNav = document.querySelector('.sidenav');
 M.Sidenav.init(sideNav, {});
 
-$(document).ready(function () {
-  $('.materialboxed').materialbox()
-})
 
+$(document).ready(function(){
+	$('.modal').modal();
+});
 $(document).ready(function () {
   $('.carousel').carousel({
     fullWidth: false,
