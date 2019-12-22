@@ -37,6 +37,7 @@ nav {
     box-shadow: none!important;
 }
 
+
 .projects {
     min-height:240px;
     position:relative;
@@ -110,9 +111,11 @@ nav {
     margin-top:0px;
 }
 
-.content-iat235{
+.content-{
   margin-top:100px;
 }
+
+/*iat 235 style*/
 
 .iat235-title {
   font-family:'GothamM', sans-serif;
@@ -251,6 +254,37 @@ blockquote{
 
 }
 
+
+/*iat333 style*/
+
+.iat333-sub-desc-title{
+  margin-top: 50px;
+  /* color: #85d7d7; */
+  /* font-size: 90%; */
+  font-family: 'GothamMi', sans-serif;
+}
+
+.iat333-desc-title{
+  margin-top: 50px;
+  color: #85d7d7;
+  font-family: 'GothamM', sans-serif;
+}
+
+.iat333-paragraphs{
+  font-family: 'Gotham', sans-serif;
+  font-weight: 600;
+}
+
+.sub-content-margin {
+  margin-left: 5%;
+}
+
+.iat333-persona-img {
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+
 .project-title-styled {
   font-family: 'Poppins';
   text-transform: uppercase;
@@ -285,4 +319,11 @@ blockquote{
   .projects {
     min-height:400px;
   }
+
+  /* .bold {
+  font-weight:bold;
+} */
+
+
+
 }
