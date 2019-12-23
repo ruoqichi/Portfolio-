@@ -22,6 +22,10 @@ nav .brand-logo {
 
 }
 
+body{
+  line-height: 30px;
+}
+
 nav {
     height:130px;
 }
@@ -197,9 +201,10 @@ nav {
 blockquote{
   font-size: 180%;
   font-family: serif;
+  line-height: 50px;
+
   border-left: 5px solid  #a9e6e7;
 }
-
 .carousel {
   margin-top:-100px;
   height: 500px;
@@ -256,6 +261,10 @@ blockquote{
 
 
 /*iat333 style*/
+.iat333-title {
+  font-family:'GothamM', sans-serif
+  color: #5a5959;
+}
 
 .iat333-sub-desc-title{
   margin-top: 50px;
@@ -284,6 +293,34 @@ blockquote{
   margin-left: 5%;
 }
 
+.iat333-landing-mockup-img{
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote-prototype{
+  font-size: 100%;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 600;
+  /* margin-top: 20%; */
+  left-margin: 5%;
+  /* border-left: 5px solid  #a9e6e7; */
+}
+
+.captions-img{
+  font-family: 'Gotham', sans-serif;
+  margin-top: 10px;
+  color: black;
+  font-size: 70%;
+
+}
+
+.prototype-video-margin {
+  margin-right: 5%;
+  /* margin-top: 10%; */
+}
 
 .project-title-styled {
   font-family: 'Poppins';
