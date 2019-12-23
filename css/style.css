@@ -7,7 +7,7 @@
 
 nav a {
     color:black;
-    font-family: 'GothamMI', sans-serif;
+    font-family: 'GothamM', sans-serif;
 
 }
 
@@ -238,11 +238,14 @@ blockquote{
   font-family:'Poppins';
   font-weight:bold;
   margin-left:10px;
+  text-align: center;
+
   font-size: 40px;
-  color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #a9dcd7;
+  color: #a9dcd7;
+  line-height: 60px;
+  /* -webkit-text-fill-color: white; /* Will override color (regardless of order) */ */
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #a9dcd7; */
 
 }
 
