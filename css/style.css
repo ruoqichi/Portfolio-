@@ -56,8 +56,6 @@ nav {
 }
 
 .project-img {
-
-
 }
 
 .img-bottom {
@@ -364,9 +362,9 @@ blockquote-prototype{
     min-height:400px;
   }
 
-  /* .bold {
-  font-weight:bold;
-} */
+.centre-align{
+  /* text-align: center; */
+}
 
 
 
