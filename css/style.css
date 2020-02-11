@@ -22,6 +22,10 @@ nav .brand-logo {
 
 }
 
+.navbar-margin{
+  margin-bottom:100px;
+}
+
 body{
   line-height: 30px;
 }
@@ -123,7 +127,7 @@ nav {
 
 .iat235-title {
   font-family:'GothamM', sans-serif;
-  color: #5a5959;
+  color: #85d7d7;
 }
 
 .iat235-desc-title{
