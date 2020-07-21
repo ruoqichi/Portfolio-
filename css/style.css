@@ -19,7 +19,6 @@ nav ul a {
 nav .brand-logo {
     color:black;
     margin-top:20px;
-
 }
 
 .navbar-margin{
@@ -102,7 +101,6 @@ nav {
   transform: translate(-50%, -50%);
   text-align: left;
   width: 80%;
-
 }
 
 .projects:hover {
